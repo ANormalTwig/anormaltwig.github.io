@@ -46,6 +46,11 @@ div.center {
   text-align: center;
 }
 
+div.container {
+  display: inline-block;
+  vertical-align: top;
+}
+
 div.content {  
   display: inline-block;
 
