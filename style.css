@@ -4,6 +4,12 @@
   src: url('fonts/impact.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+
 html, body {
   background-color: #111;
   color: #fff;
@@ -64,7 +70,8 @@ div.content {
 }
 
 div.content p {
-  font-family: initial;
+  font-family: Roboto;
+  font-size: 0.95em;
 }
 
 div.content a {
